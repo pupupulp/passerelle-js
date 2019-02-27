@@ -18,7 +18,6 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-logger
 - https://www.npmjs.com/package/koa-compress
 - https://www.npmjs.com/package/koa-session
-- https://www.npmjs.com/package/koa-cors
 - https://www.npmjs.com/package/koa-redis
 - https://www.npmjs.com/package/koa-proxy
 - https://www.npmjs.com/package/koa-response-time
@@ -34,3 +33,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-add-to-context
 - https://www.npmjs.com/package/koa2-ratelimit
 - https://www.npmjs.com/package/koa-router-version
+- https://www.npmjs.com/package/@koa/cors
