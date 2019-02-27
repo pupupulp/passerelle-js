@@ -9,7 +9,6 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-onerror
 - https://www.npmjs.com/package/koa-morgan
 - https://www.npmjs.com/package/koa-csp
-- https://www.npmjs.com/package/koa-ip-filter
 - https://www.npmjs.com/package/koa-connection-limit
 - https://www.npmjs.com/package/koa-userauth
 - https://www.npmjs.com/package/koa-ratelimit
@@ -30,3 +29,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-validate
 - https://www.npmjs.com/package/koa-csrf
 - https://www.npmjs.com/package/koa-sslify
+- https://www.npmjs.com/package/koa-ip
