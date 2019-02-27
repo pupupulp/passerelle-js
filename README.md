@@ -14,3 +14,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-joi
 - https://www.npmjs.com/package/koa-connection-limit
 - https://www.npmjs.com/package/koa-userauth
+- https://www.npmjs.com/package/joi
