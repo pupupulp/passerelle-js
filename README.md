@@ -31,3 +31,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-sslify
 - https://www.npmjs.com/package/koa-ip
 - https://www.npmjs.com/package/koa-cookie
+- https://www.npmjs.com/package/koa-roles
