@@ -11,7 +11,6 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-csp
 - https://www.npmjs.com/package/koa-connection-limit
 - https://www.npmjs.com/package/koa-userauth
-- https://www.npmjs.com/package/koa-ratelimit
 - https://www.npmjs.com/package/koa-jwt
 - https://www.npmjs.com/package/koa-passport
 - https://www.npmjs.com/package/koa-router
@@ -33,3 +32,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-cookie
 - https://www.npmjs.com/package/koa-roles
 - https://www.npmjs.com/package/koa-add-to-context
+- https://www.npmjs.com/package/koa2-ratelimit
