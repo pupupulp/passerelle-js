@@ -32,3 +32,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-ip
 - https://www.npmjs.com/package/koa-cookie
 - https://www.npmjs.com/package/koa-roles
+- https://www.npmjs.com/package/koa-add-to-context
