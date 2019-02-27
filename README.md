@@ -29,3 +29,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-json
 - https://www.npmjs.com/package/koa-validate
 - https://www.npmjs.com/package/koa-csrf
+- https://www.npmjs.com/package/koa-sslify
