@@ -19,3 +19,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-passport
 - https://www.npmjs.com/package/koa-router
 - https://www.npmjs.com/package/koa-body
+- https://www.npmjs.com/package/koa-logger
