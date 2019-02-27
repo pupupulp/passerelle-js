@@ -1,0 +1,24 @@
+{
+  "name": "passerelle-js",
+  "version": "1.0.0",
+  "description": "An opensource API gateway",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pupupulp/passerelle-js.git"
+  },
+  "keywords": [
+    "API",
+    "Gateway",
+    "API"
+  ],
+  "author": "Eagan Martin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pupupulp/passerelle-js/issues"
+  },
+  "homepage": "https://github.com/pupupulp/passerelle-js#readme"
+}
