@@ -28,3 +28,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-response-time
 - https://www.npmjs.com/package/ddos
 - https://www.npmjs.com/package/overload-protection
+- https://www.npmjs.com/package/koa-json
