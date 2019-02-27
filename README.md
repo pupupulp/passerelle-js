@@ -17,3 +17,5 @@ An opensource API gateway
 - https://www.npmjs.com/package/joi
 - https://www.npmjs.com/package/koa-ratelimit
 - https://www.npmjs.com/package/koa-jwt
+- https://www.npmjs.com/package/koa-passport
+- https://www.npmjs.com/package/koa-router
