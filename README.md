@@ -34,3 +34,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa2-ratelimit
 - https://www.npmjs.com/package/koa-router-version
 - https://www.npmjs.com/package/@koa/cors
+- https://www.npmjs.com/package/koa-subdomain
