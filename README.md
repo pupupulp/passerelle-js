@@ -33,3 +33,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-roles
 - https://www.npmjs.com/package/koa-add-to-context
 - https://www.npmjs.com/package/koa2-ratelimit
+- https://www.npmjs.com/package/koa-router-version
