@@ -10,3 +10,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-onerror
 - https://www.npmjs.com/package/koa-morgan
 - https://www.npmjs.com/package/koa-csp
+- https://www.npmjs.com/package/koa-ip-filter
