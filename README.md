@@ -18,7 +18,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-jwt
 - https://www.npmjs.com/package/koa-passport
 - https://www.npmjs.com/package/koa-router
-- https://www.npmjs.com/package/koa-body
+- https://www.npmjs.com/package/koa-bodyparser
 - https://www.npmjs.com/package/koa-logger
 - https://www.npmjs.com/package/koa-compress
 - https://www.npmjs.com/package/koa-session
