@@ -25,3 +25,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-cors
 - https://www.npmjs.com/package/koa-redis
 - https://www.npmjs.com/package/koa-proxy
+- https://www.npmjs.com/package/koa-response-time
