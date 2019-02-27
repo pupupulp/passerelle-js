@@ -10,10 +10,8 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-morgan
 - https://www.npmjs.com/package/koa-csp
 - https://www.npmjs.com/package/koa-ip-filter
-- https://www.npmjs.com/package/koa-joi
 - https://www.npmjs.com/package/koa-connection-limit
 - https://www.npmjs.com/package/koa-userauth
-- https://www.npmjs.com/package/joi
 - https://www.npmjs.com/package/koa-ratelimit
 - https://www.npmjs.com/package/koa-jwt
 - https://www.npmjs.com/package/koa-passport
@@ -29,3 +27,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/ddos
 - https://www.npmjs.com/package/overload-protection
 - https://www.npmjs.com/package/koa-json
+- https://www.npmjs.com/package/koa-validate
