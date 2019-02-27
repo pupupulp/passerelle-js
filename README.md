@@ -20,3 +20,5 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-router
 - https://www.npmjs.com/package/koa-body
 - https://www.npmjs.com/package/koa-logger
+- https://www.npmjs.com/package/koa-compress
+- https://www.npmjs.com/package/koa-session
