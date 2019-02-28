@@ -43,3 +43,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/forever-monitor
 - https://www.npmjs.com/package/bcrypt
 - https://www.npmjs.com/package/koa-unless
+- https://www.npmjs.com/package/koa-requestid
