@@ -7,7 +7,6 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa
 
 ## Authentication Handling:
-- https://www.npmjs.com/package/koa-userauth
 - https://www.npmjs.com/package/koa-jwt
 - https://www.npmjs.com/package/koa-passport
 
