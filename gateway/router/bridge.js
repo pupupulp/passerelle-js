@@ -1,4 +1,17 @@
 const Router = require('koa-router');
-const router = new Router();
+const combineRouters = require('koa-combine-routers');
+const githubRouter = require('./services/github');
 
-module.exports = router;
+const gatewayRouter = new Router();
+
+gatewayRouter.get('/', (ctx, next) => {
+	ctx.body = 'Welcome to Passerelle';
+	next();
+});
+
+const routers = combineRouters(
+	gatewayRouter,
+	githubRouter
+);
+
+module.exports = routers;

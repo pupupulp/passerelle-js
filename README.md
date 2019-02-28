@@ -15,6 +15,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-compress
 - https://www.npmjs.com/package/koa-response-time
 - https://www.npmjs.com/package/koa-requestid
+- https://www.npmjs.com/package/koa-respond
 
 ## Validation Handling:
 - https://www.npmjs.com/package/koa-validate
@@ -25,7 +26,6 @@ An opensource API gateway
 ## Logger:
 - https://www.npmjs.com/package/koa-logger
 - https://www.npmjs.com/package/koa-bunyan-logger
-- https://www.npmjs.com/package/koa-morgan
 - https://www.npmjs.com/package/winston
 
 ## Error Handling:
@@ -54,6 +54,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/axios
 - https://www.npmjs.com/package/koa-router
 - https://www.npmjs.com/package/koa-router-version
+- https://www.npmjs.com/package/koa-combine-routers
 
 ## Server Handling:
 - https://www.npmjs.com/package/http

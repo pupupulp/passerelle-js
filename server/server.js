@@ -2,7 +2,7 @@ const app = require('../gateway/app');
 const http = require('http');
 const logger = require('../logger/winston');
 
-const port = '9000';
+const port = '9019';
 
 const server = http.createServer(app.callback());
 server.listen(port);
