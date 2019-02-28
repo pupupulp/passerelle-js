@@ -26,6 +26,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-logger
 - https://www.npmjs.com/package/koa-bunyan-logger
 - https://www.npmjs.com/package/koa-morgan
+- https://www.npmjs.com/package/winston
 
 ## Error Handling:
 - https://www.npmjs.com/package/koa-onerror

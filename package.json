@@ -61,7 +61,8 @@
     "koa-userauth": "^2.1.0",
     "koa-validate": "^1.0.7",
     "koa2-ratelimit": "^0.8.0",
-    "overload-protection": "^1.1.0"
+    "overload-protection": "^1.1.0",
+    "winston": "^3.2.1"
   },
   "devDependencies": {
     "chai": "^4.2.0",
