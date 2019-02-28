@@ -23,6 +23,7 @@
   "homepage": "https://github.com/pupupulp/passerelle-js#readme",
   "dependencies": {
     "@koa/cors": "^2.2.3",
+    "axios": "^0.18.0",
     "bcrypt": "^3.0.4",
     "ddos": "^0.2.1",
     "forever-monitor": "^1.7.1",

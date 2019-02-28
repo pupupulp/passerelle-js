@@ -50,11 +50,14 @@ An opensource API gateway
 - https://www.npmjs.com/package/koa-redis
 - https://www.npmjs.com/package/koa-cookie
 
-## Network Handling:
+## HTTP Handling:
+- https://www.npmjs.com/package/axios
 - https://www.npmjs.com/package/koa-router
+- https://www.npmjs.com/package/koa-router-version
+
+## Network Handling:
 - https://www.npmjs.com/package/koa-proxy
 - https://www.npmjs.com/package/koa-subdomain
-- https://www.npmjs.com/package/koa-router-version
 - https://www.npmjs.com/package/forever-monitor
 
 ## Test Handling:
