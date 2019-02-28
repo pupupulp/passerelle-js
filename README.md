@@ -39,3 +39,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/chai
 - https://www.npmjs.com/package/supertest
 - https://www.npmjs.com/package/supertest-koa-agent
+- https://www.npmjs.com/package/sinon
