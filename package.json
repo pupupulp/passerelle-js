@@ -27,6 +27,7 @@
     "bcrypt": "^3.0.4",
     "ddos": "^0.2.1",
     "forever-monitor": "^1.7.1",
+    "http": "0.0.0",
     "koa": "^2.7.0",
     "koa-add-to-context": "^1.0.0",
     "koa-bodyparser": "^4.2.1",
