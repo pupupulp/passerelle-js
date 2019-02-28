@@ -36,3 +36,4 @@ An opensource API gateway
 - https://www.npmjs.com/package/@koa/cors
 - https://www.npmjs.com/package/koa-subdomain
 - https://www.npmjs.com/package/mocha
+- https://www.npmjs.com/package/chai
