@@ -1,5 +1,5 @@
 const forever = require('forever-monitor');
-const CONSTANTS = require('./gateway/config/constants');
+const logger = require('./logger/winston');
 
 const child = new (forever.Monitor)('server.js', {
 	max: 3,
@@ -10,29 +10,29 @@ const child = new (forever.Monitor)('server.js', {
 	sourceDir: './server',
 	watch: true,
 	watchDirectory: './',
-	logFile: './logs/monitor/log.txt',
-	outFile: './logs/monitor/log.txt',
-	errFile: './logs/monitor/log.txt',
+	logFile: './logger/logs/monitor/log.txt',
+	outFile: './logger/logs/monitor/log.txt',
+	errFile: './logger/logs/monitor/log.txt',
 });
 
 child.on('start', (process, data) => {
 	// eslint-disable-next-line no-console
-	console.log(CONSTANTS.APP_NAME + ' started with pid: ' + data.pid);
+	logger.info('Server started with pid: ' + data.pid);
 });
 
 child.on('restart', () => {
 	// eslint-disable-next-line no-console
-	console.log(CONSTANTS.APP_NAME + ' restarted: ' + child.times + ' time(s)');
+	logger.info('Server restarted: ' + child.times + ' time(s)');
 });
 
 child.on('exit:code', (code) => {
 	// eslint-disable-next-line no-console
-	console.error(CONSTANTS.APP_NAME + ' exited with code: ' + code);
+	logger.error('Server exited with code: ' + code);
 });
 
 child.on('watch:restart', (info) => {
 	// eslint-disable-next-line no-console
-	console.log(CONSTANTS.APP_NAME + ' restarted due to: ' + info.file + ' changed');
+	logger.info('Server restarted due to: ' + info.file + ' changed');
 });
 
 child.start();
