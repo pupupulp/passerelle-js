@@ -1,32 +1,38 @@
-var forever = require('forever-monitor');
+const forever = require('forever-monitor');
+const CONSTANTS = require('./gateway/config/constants');
 
-var child = new (forever.Monitor)('app.js', {
-	max: 10,
-	silent: true,
+const child = new (forever.Monitor)('server.js', {
+	max: 3,
+	silent: false,
 	killTree: true,
 	minUptime: 2000,
 	spinSleepTime: 1000,
-	sourceDir: './gateway',
+	sourceDir: './server',
 	watch: true,
 	watchDirectory: './',
 	logFile: './logs/monitor/log.txt',
-	outFile: './logs/monitor/output.txt',
-	errFile: './logs/monitor/error.txt',
+	outFile: './logs/monitor/log.txt',
+	errFile: './logs/monitor/log.txt',
 });
 
-child.on('watch:restart', (info) => {
+child.on('start', (process, data) => {
 	// eslint-disable-next-line no-console
-	console.error('Script restarted due to: ' + info.logFile + ' changed');
+	console.log(CONSTANTS.APP_NAME + ' started with pid: ' + data.pid);
 });
 
 child.on('restart', () => {
 	// eslint-disable-next-line no-console
-	console.error('Script restarted: ' + child.times + ' times');
+	console.log(CONSTANTS.APP_NAME + ' restarted: ' + child.times + ' time(s)');
 });
 
 child.on('exit:code', (code) => {
 	// eslint-disable-next-line no-console
-	console.error('Script exited with code: ' + code);
+	console.error(CONSTANTS.APP_NAME + ' exited with code: ' + code);
+});
+
+child.on('watch:restart', (info) => {
+	// eslint-disable-next-line no-console
+	console.log(CONSTANTS.APP_NAME + ' restarted due to: ' + info.file + ' changed');
 });
 
 child.start();
