@@ -35,4 +35,19 @@ child.on('watch:restart', (info) => {
 	logger.info('Server restarted due to: ' + info.file + ' changed');
 });
 
+const gracefulShutdown = () => {
+	logger.info('Gracefully shutting down');
+	process.exit(0);
+};
+
+process.on('SIGTERM', () => {
+	logger.info('Server received SIGTERM');
+	setTimeout(gracefulShutdown, 1000);
+});
+
+process.on('SIGINT', () => {
+	logger.info('Server received SIGINT');
+	setTimeout(gracefulShutdown, 1000);
+});
+
 child.start();
