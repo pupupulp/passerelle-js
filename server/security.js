@@ -1,6 +1,7 @@
 const helmet = require('helmet');
 const cors = require('cors');
 const sslify = require('express-sslify');
+const overloadProtection = require('overload-protection');
 
 module.exports = app => {
 	app.use(helmet.contentSecurityPolicy({
@@ -42,4 +43,16 @@ module.exports = app => {
 	app.use(cors());
 
 	app.use(sslify.HTTPS());
+
+	const overloadConfig = {
+		production: process.env.NODE_ENV === 'production',
+		clientRetrySecs: 1,
+		sampleInterval: 5,
+		maxEventLoopDelay: 42,
+		maxHeapUsedBytes: 0,
+		maxRssBytes: 0,
+		errorPropagationMode: false
+	};
+
+	app.use(overloadProtection('express', overloadConfig));
 };

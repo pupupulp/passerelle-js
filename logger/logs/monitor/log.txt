@@ -6,8 +6,9 @@ TypeError: unknown stream type "undefined"
 [2019-03-01T19:01:36.748Z] [Passerelle] [INFO]: Listening on port 9000
 [2019-03-01T19:03:52.410Z] [Passerelle] [INFO]: Listening on port 9000
 [2019-03-01T19:04:48.010Z] [Passerelle] [INFO]: Listening on port 9000
-s/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
-    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+[2019-03-01T19:13:22.338Z] [Passerelle] [INFO]: Listening on port 9000
+[2019-03-01T19:13:46.650Z] [Passerelle] [INFO]: Listening on port 9000
+s-bunyan-logger/index.js:12:9
     at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
     at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
     at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
