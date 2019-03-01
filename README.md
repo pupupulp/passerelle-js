@@ -23,6 +23,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/bcrypt
 - https://www.npmjs.com/package/ddos
 - https://www.npmjs.com/package/overload-protection
+- https://www.npmjs.com/package/cors
 
 ## Session Handling:
 
