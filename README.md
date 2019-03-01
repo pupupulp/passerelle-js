@@ -42,3 +42,4 @@ An opensource API gateway
 
 ## Others:
 - https://www.npmjs.com/package/fs
+- https://www.npmjs.com/package/serve-favicon
