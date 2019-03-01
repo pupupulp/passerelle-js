@@ -16,4 +16,6 @@ module.exports = app => {
 	app.use(helmet.dnsPrefetchControl());
 
 	app.use(helmet.frameguard({ action: 'sameorigin' }));
+
+	app.use(helmet.hidePoweredBy());
 };
