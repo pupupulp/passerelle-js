@@ -23,7 +23,6 @@ An opensource API gateway
 
 ## Logger:
 - https://www.npmjs.com/package/winston
-- https://www.npmjs.com/package/express-bunyan-logger
 
 ## Error Handling:
 

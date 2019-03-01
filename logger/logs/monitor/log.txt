@@ -1,13 +1,552 @@
-[2019-03-01T17:38:15.225Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T17:40:30.481Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T17:40:44.864Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T17:40:54.694Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T17:42:08.013Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T17:44:31.874Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T17:45:49.741Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T17:47:48.216Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T17:50:07.726Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T18:01:47.144Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T18:02:03.832Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T18:04:03.727Z] [Passerelle] [INFO]: Listening on port 9000
-[2019-03-01T18:42:17.342Z] [Passerelle] [INFO]: Listening on port 9000
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/ho[2019-03-01T19:00:57.734Z] [Passerelle] [INFO]: Listening on port 9000
+[2019-03-01T19:01:15.878Z] [Passerelle] [INFO]: Listening on port 9000
+[2019-03-01T19:01:19.476Z] [Passerelle] [INFO]: Listening on port 9000
+[2019-03-01T19:01:22.097Z] [Passerelle] [INFO]: Listening on port 9000
+[2019-03-01T19:01:36.748Z] [Passerelle] [INFO]: Listening on port 9000
+[2019-03-01T19:03:52.410Z] [Passerelle] [INFO]: Listening on port 9000
+[2019-03-01T19:04:48.010Z] [Passerelle] [INFO]: Listening on port 9000
+s/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7
+TypeError: unknown stream type "undefined"
+    at Logger.addStream (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:620:15)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:470:18
+    at Array.forEach (<anonymous>)
+    at new Logger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:469:25)
+    at Function.createLogger (/home/pulp/Development/source_codes/passerelle-js/node_modules/bunyan/lib/bunyan.js:1618:12)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:84:29
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express-bunyan-logger/index.js:12:9
+    at Layer.handle [as handle_request] (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:317:13)
+    at /home/pulp/Development/source_codes/passerelle-js/node_modules/express/lib/router/index.js:284:7

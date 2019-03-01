@@ -9,6 +9,8 @@ module.exports = app => {
 			defaultSrc: ["'self'"],
 			// eslint-disable-next-line quotes
 			scriptSrc: ["'self'"],
+			// eslint-disable-next-line quotes
+			styleSrc: ["'self'"],
 			reportUri: '/csp-violation',
 		}
 	}));
