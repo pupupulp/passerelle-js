@@ -29,6 +29,7 @@
     "cors": "^2.8.5",
     "ddos": "^0.2.1",
     "express": "^4.16.4",
+    "express-bunyan-logger": "^1.3.3",
     "express-fileupload": "^1.1.1-alpha.3",
     "express-list-endpoints": "^4.0.0",
     "express-rate-limit": "^3.4.0",
