@@ -30,4 +30,6 @@ module.exports = app => {
 	app.use(helmet.noCache());
 
 	app.use(helmet.noSniff());
+
+	app.use(helmet.referrerPolicy({ policy: 'same-origin' }));
 };
