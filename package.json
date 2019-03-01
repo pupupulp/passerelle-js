@@ -31,6 +31,7 @@
     "express": "^4.16.4",
     "forever-monitor": "^1.7.1",
     "fs": "0.0.1-security",
+    "helmet": "^3.15.1",
     "http": "0.0.0",
     "overload-protection": "^1.1.0",
     "serve-favicon": "^2.5.0",
