@@ -12,6 +12,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/body-parser
 
 ## Validation Handling:
+- https://www.npmjs.com/package/express-validator
 
 ## Format Handling:
 ## Logger:
