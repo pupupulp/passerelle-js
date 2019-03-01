@@ -11,6 +11,7 @@ An opensource API gateway
 
 ## Request & Response Handling:
 - https://www.npmjs.com/package/body-parser
+- https://www.npmjs.com/package/express-request-id
 
 ## Validation Handling:
 - https://www.npmjs.com/package/express-validator
