@@ -15,7 +15,11 @@ An opensource API gateway
 ## Validation Handling:
 - https://www.npmjs.com/package/express-validator
 
+## File Handling:
+- https://www.npmjs.com/package/express-fileupload
+
 ## Format Handling:
+
 ## Logger:
 - https://www.npmjs.com/package/winston
 
