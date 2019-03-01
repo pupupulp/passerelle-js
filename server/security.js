@@ -1,4 +1,5 @@
 const helmet = require('helmet');
+const cors = require('cors');
 
 module.exports = app => {
 	app.use(helmet.contentSecurityPolicy({
@@ -34,4 +35,6 @@ module.exports = app => {
 	app.use(helmet.referrerPolicy({ policy: 'same-origin' }));
 
 	app.use(helmet.xssFilter({ reportUri: '/xss-violation' }));
+
+	app.use(cors());
 };

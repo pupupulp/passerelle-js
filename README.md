@@ -27,6 +27,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/overload-protection
 - https://www.npmjs.com/package/cors
 - https://www.npmjs.com/package/helmet
+- https://www.npmjs.com/package/express-rate-limit
 
 ## Session Handling:
 
