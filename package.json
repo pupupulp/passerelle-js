@@ -23,8 +23,11 @@
   },
   "homepage": "https://github.com/pupupulp/passerelle-js#readme",
   "dependencies": {
+    "axios": "^0.18.0",
     "bcrypt": "^3.0.4",
+    "body-parser": "^1.18.3",
     "ddos": "^0.2.1",
+    "express": "^4.16.4",
     "forever-monitor": "^1.7.1",
     "fs": "0.0.1-security",
     "http": "0.0.0",
@@ -35,6 +38,6 @@
     "chai": "^4.2.0",
     "mocha": "^6.0.2",
     "sinon": "^7.2.5",
-    "supertest": "^3.4.2",
+    "supertest": "^3.4.2"
   }
 }
