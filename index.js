@@ -9,7 +9,6 @@ const child = new (forever.Monitor)('server.js', {
 	spinSleepTime: 1000,
 	sourceDir: './server',
 	watch: true,
-	watchDirectory: './',
 	logFile: './logger/logs/monitor/log.txt',
 	outFile: './logger/logs/monitor/log.txt',
 	errFile: './logger/logs/monitor/log.txt',
