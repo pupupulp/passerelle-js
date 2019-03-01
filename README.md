@@ -45,6 +45,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-subdomain
 - https://www.npmjs.com/package/express-list-endpoints
 - https://www.npmjs.com/package/express-status-monitor
+- https://www.npmjs.com/package/express-sslify
 
 ## Test Handling:
 - https://www.npmjs.com/package/mocha
