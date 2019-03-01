@@ -30,6 +30,7 @@ An opensource API gateway
 
 ## HTTP Handling:
 - https://www.npmjs.com/package/axios
+- https://www.npmjs.com/package/http-proxy-middleware
 
 ## Server Handling:
 - https://www.npmjs.com/package/http
