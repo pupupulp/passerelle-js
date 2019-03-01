@@ -17,6 +17,7 @@ An opensource API gateway
 
 ## File Handling:
 - https://www.npmjs.com/package/express-fileupload
+- https://www.npmjs.com/package/multer
 
 ## Format Handling:
 
