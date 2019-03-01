@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const router = require('./routers/router');
+const router = require('./router/bridge');
 const bodyParser = require('body-parser');
 
 app.use(bodyParser.json());

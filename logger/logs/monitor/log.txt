@@ -1,4 +1,30 @@
-[2019-03-01T15:49:11.214Z] [Passerelle] [INFO]: Listening on port 9020
-  <-- GET /users/pupupulp
-  --> GET /users/pupupulp 200 17ms 2b
- convert old middleware https://github.com/koajs/koa/blob/master/docs/migration.md at gateway/app.js:10:5
+module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module './routers/router'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/pulp/Development/source_codes/passerelle-js/gateway/app.js:3:16)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
+module.js:549
+    throw err;
+    ^
+
+Error: Cannot find module './routers/router'
+    at Function.Module._resolveFilename (module.js:547:15)
+    at Function.Module._load (module.js:474:25)
+    at Module.require (module.js:596:17)
+    at require (internal/module.js:11:18)
+    at Object.<anonymous> (/home/pulp/Development/source_codes/passerelle-js/gateway/app.js:3:16)
+    at Module._compile (module.js:652:30)
+    at Object.Module._extensions..js (module.js:663:10)
+    at Module.load (module.js:565:32)
+    at tryModuleLoad (module.js:505:12)
+    at Function.Module._load (module.js:497:3)
