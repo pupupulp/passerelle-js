@@ -30,6 +30,7 @@
     "ddos": "^0.2.1",
     "express": "^4.16.4",
     "express-fileupload": "^1.1.1-alpha.3",
+    "express-list-endpoints": "^4.0.0",
     "express-rate-limit": "^3.4.0",
     "express-subdomain": "^1.0.5",
     "express-validator": "^5.3.1",
