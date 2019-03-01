@@ -18,4 +18,10 @@ module.exports = app => {
 	app.use(helmet.frameguard({ action: 'sameorigin' }));
 
 	app.use(helmet.hidePoweredBy({ setTo: 'PHP 7.3.0' }));
+
+	const thirtyDaysInSeconds = 2592000;
+
+	app.use(helmet.hsts({
+		maxAge: thirtyDaysInSeconds
+	}));
 };

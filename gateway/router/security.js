@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const logger = require('../logger/winston');
+const logger = require('../../logger/winston');
 
 router.get('/csp-violation', (req, res) => {
 	if (req.body) {
