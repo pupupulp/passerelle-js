@@ -36,6 +36,7 @@
     "http": "0.0.0",
     "http-proxy-middleware": "^0.19.1",
     "overload-protection": "^1.1.0",
+    "passport": "^0.4.0",
     "serve-favicon": "^2.5.0",
     "winston": "^3.2.1"
   },
