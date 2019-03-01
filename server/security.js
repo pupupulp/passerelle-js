@@ -10,4 +10,6 @@ module.exports = app => {
 			reportUri: '/csp-violation',
 		}
 	}));
+
+	app.use(helmet.permittedCrossDomainPolicies());
 };
