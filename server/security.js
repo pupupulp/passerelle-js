@@ -26,4 +26,6 @@ module.exports = app => {
 	}));
 
 	app.use(helmet.ieNoOpen());
+
+	app.use(helmet.noCache());
 };
