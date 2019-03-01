@@ -2,6 +2,8 @@ const helmet = require('helmet');
 const cors = require('cors');
 const sslify = require('express-sslify');
 const overloadProtection = require('overload-protection');
+const Ddos = require('ddos');
+const ddos = new Ddos({ burst: 10, limit: 15 });
 
 module.exports = app => {
 	app.use(helmet.contentSecurityPolicy({
@@ -55,4 +57,5 @@ module.exports = app => {
 	};
 
 	app.use(overloadProtection('express', overloadConfig));
+	app.use(ddos.express);
 };
