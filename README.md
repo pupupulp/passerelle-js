@@ -27,6 +27,7 @@ An opensource API gateway
 ## Session Handling:
 
 ## HTTP Handling:
+- https://www.npmjs.com/package/axios
 
 ## Server Handling:
 - https://www.npmjs.com/package/http
