@@ -12,4 +12,6 @@ module.exports = app => {
 	}));
 
 	app.use(helmet.permittedCrossDomainPolicies());
+
+	app.use(helmet.dnsPrefetchControl());
 };
