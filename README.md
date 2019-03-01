@@ -42,6 +42,7 @@ An opensource API gateway
 ## Server Handling:
 - https://www.npmjs.com/package/http
 - https://www.npmjs.com/package/forever-monitor
+- https://www.npmjs.com/package/express-subdomain
 
 ## Test Handling:
 - https://www.npmjs.com/package/mocha
