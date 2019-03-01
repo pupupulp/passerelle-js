@@ -1,5 +1,6 @@
 const helmet = require('helmet');
 const cors = require('cors');
+const sslify = require('express-sslify');
 
 module.exports = app => {
 	app.use(helmet.contentSecurityPolicy({
@@ -37,4 +38,6 @@ module.exports = app => {
 	app.use(helmet.xssFilter({ reportUri: '/xss-violation' }));
 
 	app.use(cors());
+
+	app.use(sslify.HTTPS());
 };
