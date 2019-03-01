@@ -32,4 +32,6 @@ module.exports = app => {
 	app.use(helmet.noSniff());
 
 	app.use(helmet.referrerPolicy({ policy: 'same-origin' }));
+
+	app.use(helmet.xssFilter({ reportUri: '/xss-violation' }));
 };
