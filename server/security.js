@@ -24,4 +24,6 @@ module.exports = app => {
 	app.use(helmet.hsts({
 		maxAge: thirtyDaysInSeconds
 	}));
+
+	app.use(helmet.ieNoOpen());
 };
