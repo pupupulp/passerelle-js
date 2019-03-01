@@ -9,6 +9,7 @@ An opensource API gateway
 ## Authentication Handling:
 
 ## Request & Response Handling:
+- https://www.npmjs.com/package/body-parser
 
 ## Validation Handling:
 
