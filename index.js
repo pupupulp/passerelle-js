@@ -50,6 +50,11 @@ process.on('SIGINT', () => {
 	setTimeout(gracefulShutdown, 1000);
 });
 
+// eslint-disable-next-line no-unused-vars
+process.on('unhandledRejection', (reason, p) => {
+	throw reason;
+});
+
 process.on('uncaughtException', function (error) {
 	errorHandler.handleError(error);
 	if(!errorHandler.isTrustedError(error))
