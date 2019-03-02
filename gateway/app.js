@@ -1,10 +1,10 @@
 const express = require('express');
 const monitor = require('express-status-monitor')({ path: '' });
 const addRequestId = require('express-request-id');
+const bodyParser = require('body-parser');
 
 const secure = require('../server/security');
 const router = require('./router/bridge');
-const bodyParser = require('body-parser');
 
 const app = express();
 

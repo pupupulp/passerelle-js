@@ -1,6 +1,7 @@
 const express = require('express');
 const rateLimit = require('express-rate-limit');
 const adapter = require('../adapter');
+const errorHandler = require('../../../logger/error');
 
 const router = express.Router();
 
@@ -14,10 +15,28 @@ const apiLimiter = rateLimit({
 		'Too many accounts created from this IP, please try again after an hour'
 });
 
-router.get('/users/pupupulp', apiLimiter, (req, res) => {
-	api.get(req.path).then(resp => {
-		res.send(resp.data)
-	});
+router.get('/users/pupupulp', apiLimiter, (req, res, next) => {
+	// TODO: Transfer try..catch on top of all middlewares
+	try {
+		api.get(req.path)
+			// eslint-disable-next-line no-unused-vars
+			.then(resp => {
+				// res.send(resp.data);
+				const error = new Error('Sample operational error');
+				error.isOperational = true;
+
+				throw error;
+			})
+			.catch(error => {
+				next(error);
+			});
+	} catch(error) {
+		next(error);
+	}
+});
+
+router.use(async (err, req, res, next) => {
+	await errorHandler.handleError(err);
 });
 
 module.exports = router;
