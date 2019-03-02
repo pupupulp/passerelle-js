@@ -1,13 +1,13 @@
 const forever = require('forever-monitor');
 const logger = require('./logger/winston');
 
-const child = new (forever.Monitor)('server.js', {
+const child = new (forever.Monitor)('www', {
 	max: 3,
 	silent: false,
 	killTree: true,
 	minUptime: 2000,
 	spinSleepTime: 1000,
-	sourceDir: './server',
+	sourceDir: './server/bin',
 	watch: true,
 	logFile: './logger/logs/monitor/log.txt',
 	outFile: './logger/logs/monitor/log.txt',
