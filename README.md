@@ -38,6 +38,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-jwt-blacklist
 - https://www.npmjs.com/package/express-jwt-permissions
 - https://www.npmjs.com/package/express-brute
+- https://www.npmjs.com/package/express-ip-filter
 
 ## Session Handling:
 
