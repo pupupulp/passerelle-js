@@ -56,6 +56,9 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-sslify
 - https://www.npmjs.com/package/heapdump
 
+## Websocket Handling:
+- https://www.npmjs.com/package/express-ws
+
 ## Test Handling:
 - https://www.npmjs.com/package/mocha
 - https://www.npmjs.com/package/chai

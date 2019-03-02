@@ -46,6 +46,7 @@
     "express-status-monitor": "^1.2.3",
     "express-subdomain": "^1.0.5",
     "express-validator": "^5.3.1",
+    "express-ws": "^4.0.0",
     "forever-monitor": "^1.7.1",
     "fs": "0.0.1-security",
     "heapdump": "^0.3.12",
