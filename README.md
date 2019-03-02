@@ -55,6 +55,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-status-monitor
 - https://www.npmjs.com/package/express-sslify
 - https://www.npmjs.com/package/heapdump
+- https://www.npmjs.com/package/compression
 
 ## Websocket Handling:
 - https://www.npmjs.com/package/express-ws
