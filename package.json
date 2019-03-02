@@ -5,10 +5,10 @@
   "engines": {
     "node": ">=6.0.0"
   },
-  "main": "server.js",
+  "main": "app.js",
   "scripts": {
     "test": "nyc mocha",
-    "start": "node index.js"
+    "start": "node ./server/runner.js"
   },
   "repository": {
     "type": "git",

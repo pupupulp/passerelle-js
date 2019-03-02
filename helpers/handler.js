@@ -1,4 +1,4 @@
-const logger = require('./winston');
+const logger = require('../middlewares/logger/winston');
 
 function errorHandler() {
 	this.handleError = async (error) => {
@@ -17,5 +17,5 @@ function errorHandler() {
 }
 
 // eslint-disable-next-line no-unused-vars
-module.exports = new errorHandler();
+module.exports.error = new errorHandler();
 

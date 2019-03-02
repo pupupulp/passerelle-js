@@ -1,7 +1,7 @@
 const express = require('express');
 const rateLimit = require('express-rate-limit');
 const adapter = require('../adapter');
-const errorHandler = require('../../../logger/error');
+const handler = require('../../helpers/handler');
 
 const router = express.Router();
 
@@ -36,7 +36,7 @@ router.get('/users/pupupulp', apiLimiter, (req, res, next) => {
 });
 
 router.use(async (err, req, res, next) => {
-	await errorHandler.handleError(err);
+	await handler.error.handleError(err);
 });
 
 module.exports = router;

@@ -1,6 +1,6 @@
 const forever = require('forever-monitor');
-const logger = require('./logger/winston');
-const errorHandler = require('./logger/error');
+const logger = require('../middlewares/logger/winston');
+const handler = require('../helpers/handler');
 
 const child = new (forever.Monitor)('www', {
 	max: 3,
@@ -8,11 +8,11 @@ const child = new (forever.Monitor)('www', {
 	killTree: true,
 	minUptime: 2000,
 	spinSleepTime: 1000,
-	sourceDir: './server/bin',
+	sourceDir: './bin',
 	watch: true,
-	logFile: './logger/logs/monitor/log.txt',
-	outFile: './logger/logs/monitor/log.txt',
-	errFile: './logger/logs/monitor/log.txt',
+	logFile: '../logs/monitor/log.txt',
+	outFile: '../logs/monitor/log.txt',
+	errFile: '../logs/monitor/log.txt',
 });
 
 child.on('start', (process, data) => {
@@ -56,8 +56,8 @@ process.on('unhandledRejection', (reason, p) => {
 });
 
 process.on('uncaughtException', function (error) {
-	errorHandler.handleError(error);
-	if(!errorHandler.isTrustedError(error))
+	handler.error.handleError(error);
+	if(!handler.error.isTrustedError(error))
 		process.exit(1);
 });
 

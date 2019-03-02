@@ -4,8 +4,8 @@ const addRequestId = require('express-request-id');
 const bodyParser = require('body-parser');
 const compression = require('compression');
 
-const secure = require('../server/security');
-const router = require('./router/bridge');
+const secure = require('./server/security');
+const router = require('./routes/bridge');
 
 const app = express();
 

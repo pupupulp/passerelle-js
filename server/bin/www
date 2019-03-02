@@ -1,6 +1,6 @@
-const app = require('../../gateway/app');
+const app = require('../../app');
 const http = require('http');
-const logger = require('../../logger/winston');
+const logger = require('../../middlewares/logger/winston');
 
 const port = normalizePort('8084');
 
