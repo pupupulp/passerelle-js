@@ -36,6 +36,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/helmet
 - https://www.npmjs.com/package/express-rate-limit
 - https://www.npmjs.com/package/express-jwt-blacklist
+- https://www.npmjs.com/package/express-jwt-permissions
 
 ## Session Handling:
 
