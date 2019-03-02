@@ -6,8 +6,21 @@ const Ddos = require('ddos');
 const ddos = new Ddos({ burst: 10, limit: 15 });
 const jwt = require('express-jwt');
 const blacklist = require('express-jwt-blacklist');
+const ipFilter = require('express-ip-filter');
 
 module.exports = app => {
+	// TODO: make separate file for list of whitelist and blacklist
+	const whitelist = ['*'];
+	const blacklist = ['!213.15.*'];
+
+	app.use(ipFilter({
+		forbidden: '403: Get out of here!',
+		filter: [
+			...whitelist,
+			...blacklist
+		]
+	}));
+
 	// TODO: Change secret
 	app.use(jwt({
 		secret: 'secret-here',
