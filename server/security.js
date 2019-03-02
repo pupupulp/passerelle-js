@@ -4,8 +4,16 @@ const sslify = require('express-sslify');
 const overloadProtection = require('overload-protection');
 const Ddos = require('ddos');
 const ddos = new Ddos({ burst: 10, limit: 15 });
+const jwt = require('express-jwt');
+const blacklist = require('express-jwt-blacklist');
 
 module.exports = app => {
+	// TODO: Change secret
+	app.use(jwt({
+		secret: 'secret-here',
+		isRevoked: blacklist.isRevoked
+	}));
+
 	app.use(helmet.contentSecurityPolicy({
 		directives: {
 			// eslint-disable-next-line quotes
