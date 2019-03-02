@@ -1,4 +1,6 @@
 const express = require('express');
+const heapdump = require('heapdump');
+
 const logger = require('../../logger/winston');
 
 const router = express.Router();

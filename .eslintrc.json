@@ -13,6 +13,10 @@
         "ecmaVersion": 2018
     },
     "rules": {
+        "indent": [
+            1,
+            "tab"
+        ]
     },
     "plugins": [
         "mocha"
