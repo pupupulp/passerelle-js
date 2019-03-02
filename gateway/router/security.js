@@ -27,14 +27,14 @@ router.get('/xss-violation', (req, res) => {
 });
 
 router.get('/ops-heapdump', (req, res) => {
-    logger.info('Generating heapdump');
+	logger.info('Generating heapdump');
 
-    heapdump.writeSnapshot((err, filename) => {
-        logger.info('Heapdump file is ready to be sent to the caller', filename);
-        fs.readFile(filename, "utf-8", (err, data) => {
-            res.end(data);
-        });
-    });
+	heapdump.writeSnapshot((err, filename) => {
+		logger.info('Heapdump file is ready to be sent to the caller', filename);
+		fs.readFile(filename, 'utf-8', (err, data) => {
+			res.end(data);
+		});
+	});
 });
 
 module.exports = router;
