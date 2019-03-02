@@ -54,6 +54,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/chai
 - https://www.npmjs.com/package/supertest
 - https://www.npmjs.com/package/sinon
+- https://www.npmjs.com/package/nyc
 
 ## Others:
 - https://www.npmjs.com/package/fs

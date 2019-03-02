@@ -59,6 +59,7 @@
     "eslint-plugin-node": "^8.0.1",
     "eslint-plugin-security": "^1.4.0",
     "mocha": "^6.0.2",
+    "nyc": "^13.3.0",
     "sinon": "^7.2.5",
     "supertest": "^3.4.2"
   }
