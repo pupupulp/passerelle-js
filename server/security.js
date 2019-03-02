@@ -44,7 +44,8 @@ module.exports = app => {
 
 	app.use(cors());
 
-	app.use(sslify.HTTPS());
+	// TODO: Fix HTTPS protocol
+	// app.use(sslify.HTTPS());
 
 	const overloadConfig = {
 		production: process.env.NODE_ENV === 'production',
