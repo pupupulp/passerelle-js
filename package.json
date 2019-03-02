@@ -32,6 +32,7 @@
     "cors": "^2.8.5",
     "ddos": "^0.2.1",
     "express": "^4.16.4",
+    "express-brute": "^1.0.1",
     "express-fileupload": "^1.1.1-alpha.3",
     "express-jwt": "^5.3.1",
     "express-jwt-blacklist": "^1.1.0",
