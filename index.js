@@ -1,5 +1,6 @@
 const forever = require('forever-monitor');
 const logger = require('./logger/winston');
+const errorHandler = require('./logger/error');
 
 const child = new (forever.Monitor)('www', {
 	max: 3,
@@ -47,6 +48,12 @@ process.on('SIGTERM', () => {
 process.on('SIGINT', () => {
 	logger.info('Server received SIGINT');
 	setTimeout(gracefulShutdown, 1000);
+});
+
+process.on('uncaughtException', function (error) {
+	errorHandler.handleError(error);
+	if(!errorHandler.isTrustedError(error))
+		process.exit(1);
 });
 
 child.start();

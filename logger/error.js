@@ -10,6 +10,10 @@ function errorHandler() {
 		}
 		// TODO: Add send email if critical
 	};
+
+	this.isTrustedError = function (error) {
+		return error.isOperational;
+	}
 }
 
 // eslint-disable-next-line no-unused-vars
