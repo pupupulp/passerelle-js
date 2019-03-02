@@ -30,6 +30,7 @@
     "bcrypt": "^3.0.4",
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
+    "csurf": "^1.9.0",
     "ddos": "^0.2.1",
     "express": "^4.16.4",
     "express-brute": "^1.0.1",
