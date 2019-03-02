@@ -8,6 +8,7 @@ An opensource API gateway
 
 ## Authentication Handling:
 - https://www.npmjs.com/package/passport
+- https://www.npmjs.com/package/express-jwt
 
 ## Request & Response Handling:
 - https://www.npmjs.com/package/body-parser
