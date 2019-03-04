@@ -63,6 +63,9 @@ An opensource API gateway
 - https://www.npmjs.com/package/heapdump
 - https://www.npmjs.com/package/compression
 
+## Health Monitoring:
+- https://www.npmjs.com/package/vitalsigns
+
 ## Websocket Handling:
 - https://www.npmjs.com/package/express-ws
 
