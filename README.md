@@ -45,6 +45,9 @@ An opensource API gateway
 
 ## Session Handling:
 
+## Mail Handling:
+- https://www.npmjs.com/package/express-mailer
+
 ## HTTP Handling:
 - https://www.npmjs.com/package/axios
 - https://www.npmjs.com/package/http-proxy-middleware
