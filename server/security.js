@@ -1,3 +1,4 @@
+const minify = require('express-minify');
 const helmet = require('helmet');
 const cors = require('cors');
 const sslify = require('express-sslify');
@@ -9,6 +10,8 @@ const jwtBlacklist = require('express-jwt-blacklist');
 const ipFilter = require('express-ip-filter');
 
 module.exports = app => {
+	app.use(minify());
+
 	// TODO: make separate file for list of whitelist and blacklist
 	const whitelists = ['*'];
 	const blacklists = ['!213.15.*'];

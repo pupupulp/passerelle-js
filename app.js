@@ -9,12 +9,11 @@ const router = require('./routes/bridge');
 
 const app = express();
 
+app.use(compression());
 secure(app);
 
 app.use(monitor.middleware);
 app.get('/status', monitor.pageRoute);
-
-app.use(compression());
 
 app.use(addRequestId());
 app.use(bodyParser.json());
