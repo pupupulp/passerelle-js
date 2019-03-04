@@ -42,6 +42,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-ip-filter
 - https://www.npmjs.com/package/csurf
 - https://www.npmjs.com/package/express-minify
+- https://www.npmjs.com/package/express-user-agent-blocker
 
 ## Session Handling:
 
