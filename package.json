@@ -46,6 +46,7 @@
     "express-sslify": "^1.2.0",
     "express-status-monitor": "^1.2.3",
     "express-subdomain": "^1.0.5",
+    "express-useragent": "^1.0.12",
     "express-validator": "^5.3.1",
     "express-ws": "^4.0.0",
     "forever-monitor": "^1.7.1",

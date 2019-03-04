@@ -13,6 +13,7 @@ An opensource API gateway
 ## Request & Response Handling:
 - https://www.npmjs.com/package/body-parser
 - https://www.npmjs.com/package/express-request-id
+- https://www.npmjs.com/package/express-useragent
 
 ## Validation Handling:
 - https://www.npmjs.com/package/express-validator
