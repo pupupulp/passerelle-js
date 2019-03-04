@@ -1,2 +1,13 @@
-[2019-03-04T10:29:19.097Z] [Passerelle] [INFO]: Listening on port 8081
-[2019-03-04T10:29:25.707Z] [Passerelle] [INFO]: Operational error occured: Error: Sample operational error
+[2019-03-04T10:41:06.341Z] [Passerelle] [INFO]: Listening on port 8081
+[2019-03-04T10:41:09.995Z] [Passerelle] [INFO]: Generating heapdump
+[2019-03-04T10:41:10.808Z] [Passerelle] [INFO]: Heapdump file is ready to be sent to the caller
+[2019-03-04T10:41:59.838Z] [Passerelle] [INFO]: Generating heapdump
+[2019-03-04T10:42:00.560Z] [Passerelle] [INFO]: Heapdump file is ready to be sent to the caller
+[2019-03-04T10:42:11.667Z] [Passerelle] [INFO]: Generating heapdump
+[2019-03-04T10:42:12.403Z] [Passerelle] [INFO]: Heapdump file is ready to be sent to the caller
+[2019-03-04T10:42:16.765Z] [Passerelle] [INFO]: Generating heapdump
+[2019-03-04T10:42:18.050Z] [Passerelle] [INFO]: Heapdump file is ready to be sent to the caller
+[2019-03-04T10:42:21.318Z] [Passerelle] [INFO]: Server is unhealthy
+[2019-03-04T10:42:21.318Z] [Passerelle] [INFO]: Failed checks: {"cpu":{"usage":91.88,"loadAvg1":3.39,"loadAvg5":2.01,"loadAvg15":2.15},"mem":{"free":202.428,"process":37.482},"tick":{"avgMs":3.675,"maxMs":135,"perSec":272058},"uptime":{"sys":34599,"proc":75}}
+[2019-03-04T10:42:26.319Z] [Passerelle] [INFO]: Server is healthy
+[2019-03-04T10:42:26.319Z] [Passerelle] [INFO]: Failed checks: {"cpu":{"usage":23.93,"loadAvg1":3.35,"loadAvg5":2.02,"loadAvg15":2.15},"mem":{"free":124.923,"process":37.482},"tick":{"avgMs":2.606,"maxMs":135,"perSec":383720},"uptime":{"sys":34604,"proc":80}}
