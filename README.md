@@ -22,12 +22,11 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-fileupload
 - https://www.npmjs.com/package/multer
 
-## Format Handling:
-
 ## Logger:
 - https://www.npmjs.com/package/winston
 
 ## Error Handling:
+- https://www.npmjs.com/package/http-error-pages
 
 ## Security Handling:
 - https://www.npmjs.com/package/bcrypt
@@ -43,8 +42,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/csurf
 - https://www.npmjs.com/package/express-minify
 - https://www.npmjs.com/package/express-user-agent-blocker
-
-## Session Handling:
+- https://www.npmjs.com/package/express-slow-down
 
 ## Mail Handling:
 - https://www.npmjs.com/package/express-mailer
@@ -62,7 +60,6 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-sslify
 - https://www.npmjs.com/package/heapdump
 - https://www.npmjs.com/package/compression
-- https://www.npmjs.com/package/http-error-pages
 
 ## Health Monitoring:
 - https://www.npmjs.com/package/vitalsigns
