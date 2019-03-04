@@ -38,8 +38,9 @@ module.exports = app => {
 			scriptSrc: ["'self'"],
 			// eslint-disable-next-line quotes
 			styleSrc: ["'self'"],
-			reportUri: '/csp-violation',
-		}
+			reportUri: '/csp-violation'
+		},
+		reportOnly: true
 	}));
 
 	app.use(helmet.permittedCrossDomainPolicies());

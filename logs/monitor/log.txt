@@ -1,3 +1,2 @@
-[2019-03-04T10:05:09.285Z] [Passerelle] [ERROR]: Port 8084 is already in use
-[2019-03-04T10:05:11.045Z] [Passerelle] [ERROR]: Port 8084 is already in use
-[2019-03-04T10:05:12.822Z] [Passerelle] [ERROR]: Port 8084 is already in use
+[2019-03-04T10:29:19.097Z] [Passerelle] [INFO]: Listening on port 8081
+[2019-03-04T10:29:25.707Z] [Passerelle] [INFO]: Operational error occured: Error: Sample operational error

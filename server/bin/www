@@ -2,7 +2,7 @@ const app = require('../../app');
 const http = require('http');
 const logger = require('../../middlewares/logger/winston');
 
-const port = normalizePort('8084');
+const port = normalizePort('8081');
 
 const server = http.createServer(app);
 server.listen(port);

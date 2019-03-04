@@ -37,6 +37,7 @@ router.get('/users/pupupulp', apiLimiter, (req, res, next) => {
 
 router.use(async (err, req, res, next) => {
 	await handler.error.handleError(err);
+	res.status(204).end();
 });
 
 module.exports = router;
