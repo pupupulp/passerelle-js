@@ -62,6 +62,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-sslify
 - https://www.npmjs.com/package/heapdump
 - https://www.npmjs.com/package/compression
+- https://www.npmjs.com/package/http-error-pages
 
 ## Health Monitoring:
 - https://www.npmjs.com/package/vitalsigns

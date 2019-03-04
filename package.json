@@ -57,6 +57,7 @@
     "heapdump": "^0.3.12",
     "helmet": "^3.15.1",
     "http": "0.0.0",
+    "http-error-pages": "^2.0.0",
     "http-proxy-middleware": "^0.19.1",
     "multer": "^1.4.1",
     "overload-protection": "^1.1.0",
