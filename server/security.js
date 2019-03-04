@@ -16,19 +16,19 @@ module.exports = app => {
 	const whitelists = ['*'];
 	const blacklists = ['!213.15.*'];
 
-	app.use(ipFilter({
-		forbidden: '403: Get out of here!',
-		filter: [
-			...whitelists,
-			...blacklists
-		]
-	}));
+	// app.use(ipFilter({
+	// 	forbidden: '403: Get out of here!',
+	// 	filter: [
+	// 		...whitelists,
+	// 		...blacklists
+	// 	]
+	// }));
 
 	// TODO: Change secret
-	app.use(jwt({
-		secret: 'secret-here',
-		isRevoked: jwtBlacklist.isRevoked
-	}));
+	// app.use(jwt({
+	// 	secret: 'secret-here',
+	// 	isRevoked: jwtBlacklist.isRevoked
+	// }));
 
 	app.use(helmet.contentSecurityPolicy({
 		directives: {
