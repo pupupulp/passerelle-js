@@ -41,6 +41,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-brute
 - https://www.npmjs.com/package/express-ip-filter
 - https://www.npmjs.com/package/csurf
+- https://www.npmjs.com/package/express-minify
 
 ## Session Handling:
 
