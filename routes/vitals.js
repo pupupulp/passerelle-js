@@ -23,14 +23,14 @@ vitals.unhealthyWhen('uptime', 'sys').equals(0);
 
 vitals.on('healthChange', (healthy, checks) => {
 	logger.info('Server is ' + (healthy ? 'healthy' : 'unhealthy'));
-	logger.info('CPU usage: ' + checks.cpu.usage);
-	logger.info('Memory free: ' + checks.mem.free);
-	logger.info('Memory process: ' + checks.mem.process);
-	logger.info('Tick average ms: ' + checks.tick.avgMs);
-	logger.info('Tick max ms: ' + checks.tick.maxMs);
-	logger.info('Tick per second: ' + checks.tick.perSec);
-	logger.info('Uptime sys: ' + checks.uptime.sys);
-	logger.info('Uptime proc: ' + checks.uptime.proc);
+	logger.info('CPU usage: ' + checks.cpu.usage + '%');
+	logger.info('Memory free: ' + checks.mem.free + 'MB');
+	logger.info('Memory process: ' + checks.mem.process + 'MB');
+	logger.info('Tick average ms: ' + checks.tick.avgMs + 'ms');
+	logger.info('Tick max ms: ' + checks.tick.maxMs + 'ms');
+	logger.info('Tick per second: ' + checks.tick.perSec + 's');
+	logger.info('Uptime sys: ' + checks.uptime.sys + 's');
+	logger.info('Uptime proc: ' + checks.uptime.proc + 's');
 });
 
 router.get('/health', vitals.express);
