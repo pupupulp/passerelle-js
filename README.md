@@ -43,6 +43,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-minify
 - https://www.npmjs.com/package/express-user-agent-blocker
 - https://www.npmjs.com/package/express-slow-down
+- https://www.npmjs.com/package/safe-buffer
 
 ## Mail Handling:
 - https://www.npmjs.com/package/express-mailer
