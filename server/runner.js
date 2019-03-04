@@ -2,17 +2,17 @@ const forever = require('forever-monitor');
 const logger = require('../middlewares/logger/winston');
 const handler = require('../helpers/handler');
 
-const child = new (forever.Monitor)('www', {
+const child = new (forever.Monitor)('server/bin/www', {
 	max: 3,
 	silent: false,
 	killTree: true,
 	minUptime: 2000,
 	spinSleepTime: 1000,
-	sourceDir: './bin',
+	sourceDir: './',
 	watch: true,
-	logFile: '../logs/monitor/log.txt',
-	outFile: '../logs/monitor/log.txt',
-	errFile: '../logs/monitor/log.txt',
+	logFile: 'logs/monitor/log.txt',
+	outFile: 'logs/monitor/log.txt',
+	errFile: 'logs/monitor/log.txt',
 });
 
 child.on('start', (process, data) => {
