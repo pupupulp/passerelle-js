@@ -1,3 +1,21 @@
 [2019-03-04T11:28:05.834Z] [Passerelle] [INFO]: Listening on port 9018
 [2019-03-04T11:28:17.323Z] [Passerelle] [INFO]: Generating heapdump
 [2019-03-04T11:28:18.203Z] [Passerelle] [INFO]: Heapdump file is ready to be sent to the caller
+[2019-03-05T01:36:33.489Z] [Passerelle] [INFO]: Server is unhealthy
+[2019-03-05T01:36:34.363Z] [Passerelle] [INFO]: CPU usage: 100%
+[2019-03-05T01:36:34.363Z] [Passerelle] [INFO]: Memory free: 279.023MB
+[2019-03-05T01:36:34.364Z] [Passerelle] [INFO]: Memory process: 64.253MB
+[2019-03-05T01:36:34.364Z] [Passerelle] [INFO]: Tick average ms: 4.021ms
+[2019-03-05T01:36:34.364Z] [Passerelle] [INFO]: Tick max ms: 19ms
+[2019-03-05T01:36:34.364Z] [Passerelle] [INFO]: Tick per second: 248648s
+[2019-03-05T01:36:34.364Z] [Passerelle] [INFO]: Uptime sys: 88233s
+[2019-03-05T01:36:34.364Z] [Passerelle] [INFO]: Uptime proc: 50889s
+[2019-03-05T01:36:39.364Z] [Passerelle] [INFO]: Server is healthy
+[2019-03-05T01:36:39.365Z] [Passerelle] [INFO]: CPU usage: 84.78%
+[2019-03-05T01:36:39.365Z] [Passerelle] [INFO]: Memory free: 551.899MB
+[2019-03-05T01:36:39.365Z] [Passerelle] [INFO]: Memory process: 31.748MB
+[2019-03-05T01:36:39.365Z] [Passerelle] [INFO]: Tick average ms: 6.101ms
+[2019-03-05T01:36:39.366Z] [Passerelle] [INFO]: Tick max ms: 34ms
+[2019-03-05T01:36:39.366Z] [Passerelle] [INFO]: Tick per second: 163904s
+[2019-03-05T01:36:39.366Z] [Passerelle] [INFO]: Uptime sys: 88257s
+[2019-03-05T01:36:39.366Z] [Passerelle] [INFO]: Uptime proc: 50914s
