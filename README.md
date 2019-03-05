@@ -64,6 +64,7 @@ An opensource API gateway
 - https://www.npmjs.com/package/express-sslify
 - https://www.npmjs.com/package/heapdump
 - https://www.npmjs.com/package/compression
+- https://www.npmjs.com/package/serve-favicon
 
 ## Health Monitoring:
 - https://www.npmjs.com/package/vitalsigns
@@ -80,4 +81,4 @@ An opensource API gateway
 
 ## Others:
 - https://www.npmjs.com/package/fs
-- https://www.npmjs.com/package/serve-favicon
+- https://www.npmjs.com/package/lodash
