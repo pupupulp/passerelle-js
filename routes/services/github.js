@@ -16,23 +16,18 @@ const apiLimiter = rateLimit({
 });
 
 router.get('/users/pupupulp', apiLimiter, (req, res, next) => {
-	// TODO: Transfer try..catch on top of all middlewares
-	try {
-		api.get(req.path)
-			// eslint-disable-next-line no-unused-vars
-			.then(resp => {
-				// res.send(resp.data);
-				const error = new Error('Sample operational error');
-				error.isOperational = true;
+	api.get(req.path)
+		// eslint-disable-next-line no-unused-vars
+		.then(resp => {
+			// res.send(resp.data);
+			const error = new Error('Sample operational error');
+			error.isOperational = true;
 
-				throw error;
-			})
-			.catch(error => {
-				next(error);
-			});
-	} catch(error) {
-		next(error);
-	}
+			throw error;
+		})
+		.catch(error => {
+			next(error);
+		});
 });
 
 router.use(async (err, req, res, next) => {

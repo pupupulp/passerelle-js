@@ -11,7 +11,7 @@ const jwtBlacklist = require('express-jwt-blacklist');
 const ipFilter = require('express-ip-filter');
 const httpErrorPages = require('http-error-pages');
 
-const CONSTANTS = require('./config/constants');
+const CONSTANTS = require('../config/constants');
 
 module.exports = app => {
 	app.use(compression());
