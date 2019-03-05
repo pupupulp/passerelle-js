@@ -1,3 +1,4 @@
+const compression = require('compression');
 const minify = require('express-minify');
 const helmet = require('helmet');
 const cors = require('cors');
@@ -8,8 +9,12 @@ const ddos = new Ddos({ burst: 10, limit: 15 });
 const jwt = require('express-jwt');
 const jwtBlacklist = require('express-jwt-blacklist');
 const ipFilter = require('express-ip-filter');
+const httpErrorPages = require('http-error-pages');
+
+const CONSTANTS = require('./config/constants');
 
 module.exports = app => {
+	app.use(compression());
 	app.use(minify());
 
 	// TODO: make separate file for list of whitelist and blacklist
@@ -84,4 +89,9 @@ module.exports = app => {
 
 	app.use(overloadProtection('express', overloadConfig));
 	app.use(ddos.express);
+
+	httpErrorPages.express(app, {
+		lang: 'en_US',
+		footer: CONSTANTS.APP_NAME
+	});
 };

@@ -19,3 +19,57 @@
 [2019-03-05T01:36:39.366Z] [Passerelle] [INFO]: Tick per second: 163904s
 [2019-03-05T01:36:39.366Z] [Passerelle] [INFO]: Uptime sys: 88257s
 [2019-03-05T01:36:39.366Z] [Passerelle] [INFO]: Uptime proc: 50914s
+[2019-03-05T02:12:54.507Z] [Passerelle] [INFO]: Server is unhealthy
+[2019-03-05T02:12:54.507Z] [Passerelle] [INFO]: CPU usage: 100%
+[2019-03-05T02:12:54.507Z] [Passerelle] [INFO]: Memory free: 509.079MB
+[2019-03-05T02:12:54.507Z] [Passerelle] [INFO]: Memory process: 42.233MB
+[2019-03-05T02:12:54.507Z] [Passerelle] [INFO]: Tick average ms: 4.42ms
+[2019-03-05T02:12:54.507Z] [Passerelle] [INFO]: Tick max ms: 20ms
+[2019-03-05T02:12:54.507Z] [Passerelle] [INFO]: Tick per second: 226205s
+[2019-03-05T02:12:54.507Z] [Passerelle] [INFO]: Uptime sys: 90432s
+[2019-03-05T02:12:54.507Z] [Passerelle] [INFO]: Uptime proc: 53089s
+[2019-03-05T02:12:59.507Z] [Passerelle] [INFO]: Server is healthy
+[2019-03-05T02:12:59.508Z] [Passerelle] [INFO]: CPU usage: 53.2%
+[2019-03-05T02:12:59.508Z] [Passerelle] [INFO]: Memory free: 501.354MB
+[2019-03-05T02:12:59.508Z] [Passerelle] [INFO]: Memory process: 42.233MB
+[2019-03-05T02:12:59.508Z] [Passerelle] [INFO]: Tick average ms: 2.735ms
+[2019-03-05T02:12:59.508Z] [Passerelle] [INFO]: Tick max ms: 20ms
+[2019-03-05T02:12:59.508Z] [Passerelle] [INFO]: Tick per second: 365570s
+[2019-03-05T02:12:59.508Z] [Passerelle] [INFO]: Uptime sys: 90437s
+[2019-03-05T02:12:59.508Z] [Passerelle] [INFO]: Uptime proc: 53094s
+[2019-03-05T02:16:14.524Z] [Passerelle] [INFO]: Server is unhealthy
+[2019-03-05T02:16:14.525Z] [Passerelle] [INFO]: CPU usage: 96.5%
+[2019-03-05T02:16:14.525Z] [Passerelle] [INFO]: Memory free: 507.039MB
+[2019-03-05T02:16:14.525Z] [Passerelle] [INFO]: Memory process: 51.146MB
+[2019-03-05T02:16:14.525Z] [Passerelle] [INFO]: Tick average ms: 4.038ms
+[2019-03-05T02:16:14.526Z] [Passerelle] [INFO]: Tick max ms: 9ms
+[2019-03-05T02:16:14.526Z] [Passerelle] [INFO]: Tick per second: 247631s
+[2019-03-05T02:16:14.526Z] [Passerelle] [INFO]: Uptime sys: 90632s
+[2019-03-05T02:16:14.526Z] [Passerelle] [INFO]: Uptime proc: 53289s
+[2019-03-05T02:16:19.527Z] [Passerelle] [INFO]: Server is healthy
+[2019-03-05T02:16:19.527Z] [Passerelle] [INFO]: CPU usage: 77.94%
+[2019-03-05T02:16:19.528Z] [Passerelle] [INFO]: Memory free: 455.004MB
+[2019-03-05T02:16:19.528Z] [Passerelle] [INFO]: Memory process: 51.146MB
+[2019-03-05T02:16:19.528Z] [Passerelle] [INFO]: Tick average ms: 4.708ms
+[2019-03-05T02:16:19.528Z] [Passerelle] [INFO]: Tick max ms: 12ms
+[2019-03-05T02:16:19.528Z] [Passerelle] [INFO]: Tick per second: 212368s
+[2019-03-05T02:16:19.529Z] [Passerelle] [INFO]: Uptime sys: 90637s
+[2019-03-05T02:16:19.529Z] [Passerelle] [INFO]: Uptime proc: 53294s
+[2019-03-05T02:17:24.533Z] [Passerelle] [INFO]: Server is unhealthy
+[2019-03-05T02:17:24.536Z] [Passerelle] [INFO]: CPU usage: 90.9%
+[2019-03-05T02:17:24.536Z] [Passerelle] [INFO]: Memory free: 189.366MB
+[2019-03-05T02:17:24.536Z] [Passerelle] [INFO]: Memory process: 51.146MB
+[2019-03-05T02:17:24.537Z] [Passerelle] [INFO]: Tick average ms: 6.135ms
+[2019-03-05T02:17:24.537Z] [Passerelle] [INFO]: Tick max ms: 30ms
+[2019-03-05T02:17:24.537Z] [Passerelle] [INFO]: Tick per second: 162983s
+[2019-03-05T02:17:24.539Z] [Passerelle] [INFO]: Uptime sys: 90702s
+[2019-03-05T02:17:24.540Z] [Passerelle] [INFO]: Uptime proc: 53359s
+[2019-03-05T02:17:29.540Z] [Passerelle] [INFO]: Server is healthy
+[2019-03-05T02:17:29.541Z] [Passerelle] [INFO]: CPU usage: 79.05%
+[2019-03-05T02:17:29.541Z] [Passerelle] [INFO]: Memory free: 153.899MB
+[2019-03-05T02:17:29.541Z] [Passerelle] [INFO]: Memory process: 51.146MB
+[2019-03-05T02:17:29.541Z] [Passerelle] [INFO]: Tick average ms: 4.703ms
+[2019-03-05T02:17:29.541Z] [Passerelle] [INFO]: Tick max ms: 17ms
+[2019-03-05T02:17:29.541Z] [Passerelle] [INFO]: Tick per second: 212616s
+[2019-03-05T02:17:29.542Z] [Passerelle] [INFO]: Uptime sys: 90707s
+[2019-03-05T02:17:29.542Z] [Passerelle] [INFO]: Uptime proc: 53364s
