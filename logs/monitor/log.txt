@@ -1,2 +1,6 @@
-[2019-03-05T02:28:21.914Z] [Passerelle] [INFO]: Listening on port 9018
-[2019-03-05T02:29:09.293Z] [Passerelle] [INFO]: Operational error occured: Error: Sample operational error
+[2019-03-05T02:31:33.315Z] [Passerelle] [INFO]: Listening on port 9018
+[2019-03-05T02:31:37.685Z] [Passerelle] [INFO]: Operational error occured: Error: Sample operational error
+[2019-03-05T02:31:57.745Z] [Passerelle] [INFO]: Operational error occured: Error: Sample operational error
+[2019-03-05T02:31:59.693Z] [Passerelle] [INFO]: Operational error occured: Error: Sample operational error
+[2019-03-05T02:32:02.151Z] [Passerelle] [INFO]: Operational error occured: Error: Sample operational error
+[2019-03-05T02:32:04.609Z] [Passerelle] [INFO]: Operational error occured: Error: Sample operational error

@@ -87,6 +87,7 @@ module.exports = app => {
 		errorPropagationMode: false
 	};
 
+	// TODO: Check ddos and overload protection for possible discarding of packages
 	app.use(overloadProtection('express', overloadConfig));
 	app.use(ddos.express);
 

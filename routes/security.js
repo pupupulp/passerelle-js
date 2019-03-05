@@ -6,22 +6,26 @@ const logger = require('../middlewares/logger/winston');
 
 const router = express.Router();
 
-router.get('/csp-violation', (req, res) => {
+router.get('/csp-violation', async (req, res) => {
+	let message = 'Empty data';
+
 	if (req.body) {
-		logger.info('CSP Violation: ', req.body);
-	} else {
-		logger.info('CSP Violation: Empty data');
+		message = req.body;
 	}
+
+	await logger.info('CSP Violation: ' + message);
 
 	res.status(204).end();
 });
 
-router.get('/xss-violation', (req, res) => {
+router.get('/xss-violation', async (req, res) => {
+	let message = 'Empty data';
+
 	if (req.body) {
-		logger.info('XSS Violation: ', req.body);
-	} else {
-		logger.info('XSS Violation: Empty data');
+		message = req.body;
 	}
+
+	await logger.info('XSS Violation: ' + message);
 
 	res.status(204).end();
 });

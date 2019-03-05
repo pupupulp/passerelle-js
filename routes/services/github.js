@@ -15,8 +15,8 @@ const apiLimiter = rateLimit({
 		'Too many accounts created from this IP, please try again after an hour'
 });
 
-router.get('/users/pupupulp', apiLimiter, (req, res, next) => {
-	api.get(req.path)
+router.get('/users/pupupulp', apiLimiter, async (req, res, next) => {
+	await api.get(req.path)
 		// eslint-disable-next-line no-unused-vars
 		.then(resp => {
 			// res.send(resp.data);
