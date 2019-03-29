@@ -131,12 +131,12 @@ $ docker run -d \
 ### Build
 1. **Change permission of script**
 ```cli
-$ chmod +x app/scripts/build.sh
+$ chmod +x gateway/scripts/build.sh
 ```
 
 2. **Run the script**
 ```cli
-$ app/scripts/build.sh
+$ gateway/scripts/build.sh
 ```
 
 ## About
