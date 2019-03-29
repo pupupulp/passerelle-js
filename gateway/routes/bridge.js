@@ -1,12 +1,22 @@
 const express = require('express');
-const vitalsRouter = require('./vitals');
-const securityRouter = require('./security');
-const githubRouter = require('./services/github');
+const endpoints = require('express-list-endpoints');
+
+const monitorRouter = demand('routes/monitor');
+const securityViolationRouter = demand('routes/security-violation');
+const maintenanceRouter = demand('routes/maintenance');
+
+const githubRouter = demand('routes/servcies/github');
 
 const router = express.Router();
 
-router.use(vitalsRouter);
-router.use(securityRouter);
+router.use(monitorRouter);
+router.use(securityViolationRouter);
+router.use(maintenanceRouter);
+
 router.use(githubRouter);
+
+router.get('/endpoints', (req, res) => {
+	res.send(endpoints(router));
+});
 
 module.exports = router;
