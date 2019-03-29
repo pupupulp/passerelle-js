@@ -1,9 +1,16 @@
+# Git
+.git
+.gitignore
+
+# NPM
+npm-debug.log
+node_modules
+
 # App
 logs
 
-# NPM
-node_modules
-npm-debug.log
+# Docker
+Dockerfile
 
 # Others
 coverage
