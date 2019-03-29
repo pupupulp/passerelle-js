@@ -1,25 +1,38 @@
 {
   "name": "passerelle-js",
   "version": "1.0.0",
-  "description": "An opensource API gateway",
+  "description": "An opensource API gateway built with ExpressJS",
   "engines": {
-    "node": ">=6.0.0"
+    "node": ">=8.10.0",
+    "npm": ">=3.5.2"
   },
   "main": "app.js",
   "scripts": {
     "test": "nyc mocha",
-    "start": "node ./server/runner.js"
+    "start": "node ./app/scripts/forever-start.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/pupupulp/passerelle-js.git"
   },
   "keywords": [
-    "API",
-    "Gateway",
-    "API"
+    "api",
+    "api-gateway",
+    "gateway",
+    "javascript",
+    "js",
+    "expressjs",
+    "express-js",
+    "express",
+    "nodejs",
+    "node-js",
+    "node"
   ],
-  "author": "Eagan Martin",
+  "author":{
+    "name": "Eagan Martin",
+    "email": "mece.martinece@gmail.com",
+    "url": "https://github.com/pupupulp"
+  },
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/pupupulp/passerelle-js/issues"
@@ -31,12 +44,8 @@
     "body-parser": "^1.18.3",
     "compression": "^1.7.3",
     "cors": "^2.8.5",
-    "csurf": "^1.9.0",
     "ddos": "^0.2.1",
     "express": "^4.16.4",
-    "express-brute": "^1.0.1",
-    "express-fileupload": "^1.1.1-alpha.3",
-    "express-ip-filter": "^2.0.0",
     "express-jwt": "^5.3.1",
     "express-jwt-blacklist": "^1.1.0",
     "express-jwt-permissions": "^1.2.3",
@@ -52,20 +61,17 @@
     "express-user-agent-blocker": "^2.0.2",
     "express-useragent": "^1.0.12",
     "express-validator": "^5.3.1",
-    "express-ws": "^4.0.0",
     "forever-monitor": "^1.7.1",
     "fs": "0.0.1-security",
     "heapdump": "^0.3.12",
     "helmet": "^3.15.1",
     "http": "0.0.0",
     "http-error-pages": "^2.0.0",
-    "http-proxy-middleware": "^0.19.1",
-    "lodash": "^4.17.11",
     "moment": "^2.24.0",
-    "multer": "^1.4.1",
     "overload-protection": "^1.1.0",
     "passport": "^0.4.0",
-    "safe-buffer": "^5.1.2",
+    "request": "^2.88.0",
+    "require-dir": "^1.2.0",
     "serve-favicon": "^2.5.0",
     "vitalsigns": "^0.4.3",
     "winston": "^3.2.1"
