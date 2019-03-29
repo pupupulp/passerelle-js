@@ -1,21 +1,21 @@
-const logger = require('../middlewares/logger/winston');
+const logger = demand('middlewares/logger');
 
-function errorHandler() {
-	this.handleError = async (error) => {
-		if(error.isOperational) {
-			await logger.info('Operational error occured: ' + error);
-		}
-		else {
-			await logger.error(error);
-		}
-		// TODO: Add send email if critical
-	};
-
-	this.isTrustedError = function (error) {
-		return error.isOperational;
+const handleError = async (error) => {
+	if (error.isOperational) {
+		await logger.info('Operational error occured: ' + error);
+	} else {
+		await logger.error(error);
 	}
+	// TODO: Add send email if critical
+};
+
+const isTrustedError = (error) => {
+	return error.isOperational;
+};
+
+const errorHandler = function() {
+	this.handleError = handleError;
+	this.isTrustedError = isTrustedError;
 }
 
-// eslint-disable-next-line no-unused-vars
 module.exports.error = new errorHandler();
-
