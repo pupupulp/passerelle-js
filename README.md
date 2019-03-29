@@ -1,84 +1,165 @@
 # passerelle-js
-An opensource API gateway
 
-# NPM Packages:
+![contributors](https://badgen.net/github/contributors/pupupulp/passerelle-js)
+![stars](https://badgen.net/github/stars/pupupulp/passerelle-js)
+![commits](https://badgen.net/github/commits/pupupulp/passerelle-js)
+![last commit](https://badgen.net/github/last-commit/pupupulp/passerelle-js)
+[![License](https://badgen.net/github/license/pupupulp/passerelle-js)](https://github.com/pupupulp/passerelle-js/blob/master/LICENSE)
 
-## Framework:
-- https://www.npmjs.com/search?q=express
+An opensource API gateway built with ExpressJS
 
-## Authentication Handling:
-- https://www.npmjs.com/package/passport
-- https://www.npmjs.com/package/express-jwt
+## Quickstart
 
-## Request & Response Handling:
-- https://www.npmjs.com/package/body-parser
-- https://www.npmjs.com/package/express-request-id
-- https://www.npmjs.com/package/express-useragent
+### Installation
 
-## Validation Handling:
-- https://www.npmjs.com/package/express-validator
+#### Docker Setup
 
-## File Handling:
-- https://www.npmjs.com/package/express-fileupload
-- https://www.npmjs.com/package/multer
+1. **CentOS**
 
-## Logger:
-- https://www.npmjs.com/package/winston
+```cli
+$ sudo yum install -y yum-utils \
+    device-mapper-persistent-data \
+    lvm2
 
-## Error Handling:
-- https://www.npmjs.com/package/http-error-pages
+$ sudo yum-config-manager \
+    --add-repo \
+    https://download.docker.com/linux/centos/docker-ce.repo
 
-## Security Handling:
-- https://www.npmjs.com/package/bcrypt
-- https://www.npmjs.com/package/ddos
-- https://www.npmjs.com/package/overload-protection
-- https://www.npmjs.com/package/cors
-- https://www.npmjs.com/package/helmet
-- https://www.npmjs.com/package/express-rate-limit
-- https://www.npmjs.com/package/express-jwt-blacklist
-- https://www.npmjs.com/package/express-jwt-permissions
-- https://www.npmjs.com/package/express-brute
-- https://www.npmjs.com/package/express-ip-filter
-- https://www.npmjs.com/package/csurf
-- https://www.npmjs.com/package/express-minify
-- https://www.npmjs.com/package/express-user-agent-blocker
-- https://www.npmjs.com/package/express-slow-down
-- https://www.npmjs.com/package/safe-buffer
+$ sudo yum install docker-ce docker-ce-cli containerd.io
 
-## Mail Handling:
-- https://www.npmjs.com/package/express-mailer
+$ sudo systemctl start docker
+```
 
-## Date Handling:
-- https://www.npmjs.com/package/moment
+2. **Debian**
 
-## HTTP Handling:
-- https://www.npmjs.com/package/axios
-- https://www.npmjs.com/package/http-proxy-middleware
+```cli
+$ sudo apt-get update
 
-## Server Handling:
-- https://www.npmjs.com/package/http
-- https://www.npmjs.com/package/forever-monitor
-- https://www.npmjs.com/package/express-subdomain
-- https://www.npmjs.com/package/express-list-endpoints
-- https://www.npmjs.com/package/express-status-monitor
-- https://www.npmjs.com/package/express-sslify
-- https://www.npmjs.com/package/heapdump
-- https://www.npmjs.com/package/compression
-- https://www.npmjs.com/package/serve-favicon
+$ sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg2 \
+    software-properties-common
 
-## Health Monitoring:
-- https://www.npmjs.com/package/vitalsigns
+$ curl -fsSL https://download.docker.com/linux/debian/gpg | sudo apt-key add -
 
-## Websocket Handling:
-- https://www.npmjs.com/package/express-ws
+$ sudo apt-key fingerprint 0EBFCD88
 
-## Test Handling:
-- https://www.npmjs.com/package/mocha
-- https://www.npmjs.com/package/chai
-- https://www.npmjs.com/package/supertest
-- https://www.npmjs.com/package/sinon
-- https://www.npmjs.com/package/nyc
+$ sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/debian \
+   $(lsb_release -cs) \
+   stable"
 
-## Others:
-- https://www.npmjs.com/package/fs
-- https://www.npmjs.com/package/lodash
+$ sudo apt-get update
+
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+3. **Fedora**
+
+```cli
+$ sudo dnf -y install dnf-plugins-core
+
+$ sudo dnf config-manager \
+    --add-repo \
+    https://download.docker.com/linux/fedora/docker-ce.repo
+
+$ sudo dnf install docker-ce docker-ce-cli containerd.io
+
+$ sudo systemctl start docker
+```
+
+4. **Ubuntu**
+
+```cli
+$ sudo apt-get update
+
+$ sudo apt-get install \
+    apt-transport-https \
+    ca-certificates \
+    curl \
+    gnupg-agent \
+    software-properties-common
+
+$ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+
+$ sudo apt-key fingerprint 0EBFCD88
+
+$ sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+
+$ sudo apt-get update
+
+$ sudo apt-get install docker-ce docker-ce-cli containerd.io
+```
+
+5. **[MacOS](https://docs.docker.com/docker-for-mac/install/)**
+6. **[Windows](https://docs.docker.com/docker-for-windows/install/)**
+
+#### App Setup
+
+1. **Clone the repository**
+
+```cli
+$ git clone https://github.com/pupupulp/passerelle-js.git
+```
+
+2. **Go to source directory**
+```cli
+$ cd passerelle-js
+```
+
+3. **Build docker image**
+```cli
+$ docker build -t pupupulp/passerellejs:1.0 .
+```
+
+
+### Usage
+**Run docker image**
+```cli
+$ docker run -d \
+    --name="passerelle" \
+    -p 9000:9000 \
+    --mount type=bind,source=$(pwd)/gateway,target=/usr/src/passerelle/gateway,readonly \
+    pupupulp/passerellejs:1.0
+```
+
+### Build
+1. **Change permission of script**
+```cli
+$ chmod +x app/scripts/build.sh
+```
+
+2. **Run the script**
+```cli
+$ app/scripts/build.sh
+```
+
+## About
+
+### Contributing
+
+Pull requests and stars are always welcome. For bugs and feature requests, please [create an issue](https://github.com/pupupulp/passerelle-js/issues/new).
+
+### Related Projects
+
+You might want to checkout these projects:
+
+- [KonyvtarJS](https://github.com/pupupulp/konyvtar-js) - An opensource library/package of code wrappers for ExtJS 6.2.0 GPL.
+- [NchikotaJS](https://github.com/pupupulp/nchikota-js) - An opensource tech stack composed of ExpressJS, NodeJS, ExtJS.
+
+### Contributors
+
+### Author
+
+**Eagan Martin**
+- [Github](https://github.com/pupupulp)
+- [LinkedIn]()
+
+### License
+
+Copyright © 2019, [Eagan Martin](https://github.com/pupupulp). Release under the [GPL-3.0 License](https://github.com/pupupulp/passerelle-js/blob/master/LICENSE)
