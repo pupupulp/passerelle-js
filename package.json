@@ -1,6 +1,6 @@
 {
   "name": "passerelle-js",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "An opensource API gateway built with ExpressJS",
   "engines": {
     "node": ">=8.10.0",
@@ -9,7 +9,7 @@
   "main": "app.js",
   "scripts": {
     "test": "nyc mocha",
-    "start": "node ./app/scripts/forever-start.js"
+    "start": "node ./src/scripts/forever-start.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,7 @@
     "node-js",
     "node"
   ],
-  "author":{
+  "author": {
     "name": "Eagan Martin",
     "email": "mece.martinece@gmail.com",
     "url": "https://github.com/pupupulp"
@@ -46,9 +46,6 @@
     "cors": "^2.8.5",
     "ddos": "^0.2.1",
     "express": "^4.16.4",
-    "express-jwt": "^5.3.1",
-    "express-jwt-blacklist": "^1.1.0",
-    "express-jwt-permissions": "^1.2.3",
     "express-list-endpoints": "^4.0.0",
     "express-mailer": "^0.3.1",
     "express-minify": "^1.0.0",
@@ -56,24 +53,17 @@
     "express-request-id": "^1.4.1",
     "express-slow-down": "^1.3.1",
     "express-sslify": "^1.2.0",
-    "express-status-monitor": "^1.2.3",
     "express-subdomain": "^1.0.5",
     "express-user-agent-blocker": "^2.0.2",
     "express-useragent": "^1.0.12",
     "express-validator": "^5.3.1",
     "forever-monitor": "^1.7.1",
-    "fs": "0.0.1-security",
-    "heapdump": "^0.3.12",
     "helmet": "^3.15.1",
-    "http": "0.0.0",
-    "http-error-pages": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
     "moment": "^2.24.0",
+    "morgan": "^1.9.1",
     "overload-protection": "^1.1.0",
-    "passport": "^0.4.0",
-    "request": "^2.88.0",
     "require-dir": "^1.2.0",
-    "serve-favicon": "^2.5.0",
-    "vitalsigns": "^0.4.3",
     "winston": "^3.2.1"
   },
   "devDependencies": {

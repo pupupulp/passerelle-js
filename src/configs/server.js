@@ -11,19 +11,12 @@ module.exports = {
 		killTree: true,
 		minUptime: 2000,
 		spinSleepTime: 1000,
-		sourceDir: './app',
+		sourceDir: './src',
 		watch: true,
-		watchDirectory: './app',
+		watchDirectory: './src',
 		logFile: `logs/${date}/log.txt`,
 		outFile: `logs/${date}/output.txt`,
 		errFile: `logs/${date}/error.txt`,
 	},
-	vitals: {
-		autoCheck: 5000,
-		httpHealthy: 200,
-		httpUnhealthy: 503
-	},
-	cpuThreshold: 90,
-	tickThreshold: 500,
 	admin: 'mece.martinece@gmail.com'
 };

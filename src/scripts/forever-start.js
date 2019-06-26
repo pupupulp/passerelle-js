@@ -4,7 +4,7 @@ const forever = require('forever-monitor');
 const fs = require('fs');
 const moment = require('moment');
 
-const logger = demand('middlewares/logger');
+const logger = demand('utils/logger');
 const handler = demand('helpers/handler');
 const config = demand('configs');
 

@@ -11,6 +11,6 @@ if [ ! "$(docker ps -q -f name=passerelle)" ]; then
     docker run -d \
         --name="passerelle" \
         -p 9000:9000 \
-        --mount type=bind,source=$(pwd)/gateway,target=/usr/src/passerelle/gateway,readonly \
-        pupupulp/passerellejs:1.0
+        --mount type=bind,source=$(pwd)/src,target=/usr/src/passerelle/src,readonly \
+        pupupulp/passerelle-js:1.0
 fi

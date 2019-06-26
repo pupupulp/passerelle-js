@@ -3,7 +3,7 @@ global.demand = path => require(`${__dirname}/../../${path}`);
 const http = require('http');
 
 const app = demand('app');
-const logger = demand('middlewares/logger');
+const logger = demand('utils/logger');
 const config = demand('configs');
 
 const normalizePort = (value) => {

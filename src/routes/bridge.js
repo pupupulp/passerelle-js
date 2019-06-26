@@ -1,18 +1,20 @@
 const express = require('express');
 const endpoints = require('express-list-endpoints');
 
-const monitorRouter = demand('routes/monitor');
-const securityViolationRouter = demand('routes/security-violation');
-const maintenanceRouter = demand('routes/maintenance');
 
-const githubRouter = demand('routes/servcies/github');
+const authRouter = demand('routes/services/auth-service');
+const githubRouter = demand('routes/services/github-service');
+const securityViolationRouter = demand('routes/security-violation');
+
+const authCheck = demand('middlewares/auth-check');
 
 const router = express.Router();
 
-router.use(monitorRouter);
-router.use(securityViolationRouter);
-router.use(maintenanceRouter);
+router.use(authRouter);
 
+router.use(authCheck.checkAccessToken);
+
+router.use(securityViolationRouter);
 router.use(githubRouter);
 
 router.get('/endpoints', (req, res) => {

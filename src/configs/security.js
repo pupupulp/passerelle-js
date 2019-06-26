@@ -45,13 +45,9 @@ module.exports = {
 			// '*'
 		],
 	},
-	errorPages: {
-		lang: 'en_US',
-		footer: 'security@admin.com'
-	},
 	blacklists: {
 		ip: [
-			'!213.15.*'
+			// '!213.15.*'
 		],
 		agent: []
 	}

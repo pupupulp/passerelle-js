@@ -1,23 +1,14 @@
-const jwt = require('express-jwt');
-const jwtBlacklist = require('express-jwt-blacklist');
 const helmet = require('helmet');
 const cors = require('cors');
 const sslify = require('express-sslify');
 const overloadProtection = require('overload-protection');
 const Ddos = require('ddos');
 const agentBlocker = require('express-user-agent-blocker');
-const httpErrorPages = require('http-error-pages');
 
-const logger = demand('middlewares/logger');
+const logger = demand('utils/logger');
 const config = demand('configs');
 
 module.exports = (app) => {
-	// TODO: Change secret
-	// app.use(jwt({
-	// 	secret: 'secret-here',
-	// 	isRevoked: jwtBlacklist.isRevoked
-	// }));
-
 	/**
 	 * * Content-Security-Policy
 	 *
@@ -140,13 +131,4 @@ module.exports = (app) => {
 	 * * User Agent Blocker
 	 */
 	app.use(agentBlocker(config.security.blacklists.agent));
-
-	/**
-	 * * HTTP Error Pages
-	 *
-	 * * displays pre-built pages for status codes 4XX and 5XX
-	 *
-	 * * comment out to display error on development
-	 */
-	httpErrorPages.express(app, config.security.errorPages);
 };

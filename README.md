@@ -114,7 +114,7 @@ $ cd passerelle-js
 
 3. **Build docker image**
 ```cli
-$ docker build -t pupupulp/passerellejs:1.0 .
+$ docker build -t pupupulp/passerelle-js:1.0 .
 ```
 
 
@@ -124,19 +124,19 @@ $ docker build -t pupupulp/passerellejs:1.0 .
 $ docker run -d \
     --name="passerelle" \
     -p 9000:9000 \
-    --mount type=bind,source=$(pwd)/gateway,target=/usr/src/passerelle/gateway,readonly \
-    pupupulp/passerellejs:1.0
+    --mount type=bind,source=$(pwd)/src,target=/usr/src/passerelle/src,readonly \
+    pupupulp/passerelle-js:1.0
 ```
 
 ### Build
 1. **Change permission of script**
 ```cli
-$ chmod +x gateway/scripts/build.sh
+$ chmod +x src/scripts/build.sh
 ```
 
 2. **Run the script**
 ```cli
-$ gateway/scripts/build.sh
+$ src/scripts/build.sh
 ```
 
 ## About
@@ -158,8 +158,8 @@ You might want to checkout these projects:
 
 **Eagan Martin**
 - [Github](https://github.com/pupupulp)
-- [LinkedIn]()
+- [LinkedIn](https://www.linkedin.com/in/eagan-charles-martin-a5a172186/)
 
 ### License
 
-Copyright © 2019, [Eagan Martin](https://github.com/pupupulp). Release under the [GPL-3.0 License](https://github.com/pupupulp/passerelle-js/blob/master/LICENSE)
+Copyright © 2019, [Eagan Martin](https://github.com/pupupulp). Release under the [MIT License](https://github.com/pupupulp/passerelle-js/blob/master/LICENSE)
