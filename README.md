@@ -99,6 +99,24 @@ $ sudo apt-get install docker-ce docker-ce-cli containerd.io
 5. **[MacOS](https://docs.docker.com/docker-for-mac/install/)**
 6. **[Windows](https://docs.docker.com/docker-for-windows/install/)**
 
+#### Docker Compose Setup
+
+Note: For latest version of docker-compose please check https://docs.docker.com/compose/install/.
+
+1. Install with curl
+
+```cli
+$ sudo curl \
+    -L "https://github.com/docker/compose/releases/download/1.24.0/docker-compose-$(uname -s)-$(uname -m)" \
+    -o /usr/local/bin/docker-compose
+```
+
+2. Apply executable permission
+
+```cli
+$ sudo chmod +x /usr/local/bin/docker-compose
+```
+
 #### App Setup
 
 1. **Clone the repository**
