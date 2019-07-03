@@ -1,0 +1,25 @@
+version: '3'
+services:
+  web:
+    image: pupupulp/passerelle-js:1.0
+    ports: 
+      - "9000:9000"
+    deploy:
+      replicas: 2
+      restart_policy:
+        condition: on-failure
+    networks: 
+      - webnet
+  visualizer:
+    image: dockersamples/visualizer:stable
+    ports:
+      - "8080:8080"
+    volumes:
+      - "/var/run/docker.sock:/var/run/docker.sock"
+    deploy:
+      placement:
+        constraints: [node.role == manager]
+    networks:
+      - webnet
+networks:
+  webnet:

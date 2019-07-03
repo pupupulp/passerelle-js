@@ -4,6 +4,7 @@ if [[ "$(docker images -q pupupulp/passerelle-js:1.0 2> /dev/null)" == "" ]]; th
     docker build -t pupupulp/passerelle-js:1.0 .
 fi
 
+# Standard docker run
 if [ ! "$(docker ps -q -f name=passerelle)" ]; then
     if [ "$(docker ps -aq -f status=exited -f name=passerelle)" ]; then
         # cleanup
