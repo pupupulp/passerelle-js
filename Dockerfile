@@ -1,69 +1,57 @@
-# base image
-FROM ubuntu:18.04
+# Build Stage
+FROM mhart/alpine-node:latest AS APP_BUILDER
 
-# maintainer
-LABEL maintainer="pupupulp"
+# Maintainer
+MAINTAINER Eagan Martin <mece.martinece@gmail.com>
 
-# skip configurable/interactive installations
-ENV DEBIAN_FRONTEND noninteractive
+# App setup environment variables
+ENV APP_BRANCH=master \
+    APP_GIT=https://github.com/pupupulp/passerelle-js.git \
+    APP_PATH=/usr/src/passerelle \
+    PRODUCTION_ONLY=true
 
-# python environment variables
-ENV PYTHON_URL=https://www.python.org/ftp/python \
-	PYTHON_VER=2.7.15 \
-	PYTHON_PATH=/usr/src
+# Dependency installation
+RUN apk update \
+    && apk upgrade \
+    && apk add --no-cache \
+        bash \
+        git \
+        openssh \
+        make \
+        gcc \
+        g++ \
+        python \
+    && python -m ensurepip \
+    && pip install --upgrade pip setuptools \
+    && rm -r /usr/lib/python*/ensurepip \
+    && rm -r /root/.cache \
+    && rm -rf /var/lib/apt/lists/* \
+    && rm /var/cache/apk/*
 
-# node environment variables
-ENV NODE_URL=https://nodejs.org/dist \
-	NODE_VER=v11.12.0 \
-	NODE_DISTRO=linux-x64 \
-	NODE_PATH=/usr/local/lib/nodejs
+# App setup
+WORKDIR ${APP_PATH}
+RUN git clone --single-branch --branch ${APP_BRANCH} ${APP_GIT} ./ \
+    && npm cache clean --force \
+	&& npm install -g node-gyp \
+	&& yarn install --production=${PRODUCTION_ONLY}
 
-# app environment variables
+# Release Stage
+FROM mhart/alpine-node:slim AS APP_RELEASE
+
+# Maintainer
+MAINTAINER Eagan Martin <mece.martinece@gmail.com>
+
+# App environment variables
 ENV APP_PATH=/usr/src/passerelle \
-	APP_VOLUME=/usr/src/passerelle/gateway \
 	APP_PORT=9000
 
-# installation of dependencies
-RUN apt-get update \
-    && apt-get install -qy \
-        wget \
-        software-properties-common \
-		build-essential \
-		python2.7
-
-# installation of python
-RUN ln -s /usr/bin/python2.7 /usr/bin/python
-
-# installation of node
-RUN mkdir -p ${NODE_PATH} && cd ${NODE_PATH} \
-    && wget ${NODE_URL}/${NODE_VER}/node-${NODE_VER}-${NODE_DISTRO}.tar.xz \
-    && tar -xJvf node-${NODE_VER}-${NODE_DISTRO}.tar.xz
-
-# export node bin to path
-ENV PATH=${NODE_PATH}/node-${NODE_VER}-${NODE_DISTRO}/bin:${PATH}
-
-# cleanup
-RUN rm -rf ${NODE_PATH}/node-${NODE_VER}-${NODE_DISTRO}.tar.xz \
-	&& apt-get purge -qy --auto-remove \
-			wget \
-			software-properties-common \
-	&& rm -rf /var/lib/apt/lists/*
-
-# app setup
+# Migrate app from builder stage
 WORKDIR ${APP_PATH}
+COPY --from=0 ${APP_PATH} .
+COPY . .
 
-# install app dependencies
-COPY package*.json ./
-RUN npm cache clean --force \
-	&& npm install -g node-gyp \
-	&& npm install -g yarn \
-	&& yarn install
-
-# expose app
+# Expose app
 EXPOSE ${APP_PORT}
 
-# load app source code
-VOLUME ["${APP_VOLUME}"]
-
-# start app
-CMD ["npm", "start"]
+# Start app
+CMD ["node", "./src/scripts/forever-start.js"]

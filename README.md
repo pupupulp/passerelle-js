@@ -142,7 +142,6 @@ $ docker build -t pupupulp/passerelle-js:1.0 .
 $ docker run -d \
     --name="passerelle" \
     -p 9000:9000 \
-    --mount type=bind,source=$(pwd)/src,target=/usr/src/passerelle/src,readonly \
     pupupulp/passerelle-js:1.0
 ```
 

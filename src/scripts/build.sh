@@ -1,6 +1,8 @@
 #!/bin/bash
 
-docker build -t pupupulp/passerellejs:1.0 .
+if [[ "$(docker images -q pupupulp/passerelle-js:1.0 2> /dev/null)" == "" ]]; then
+    docker build -t pupupulp/passerelle-js:1.0 .
+fi
 
 if [ ! "$(docker ps -q -f name=passerelle)" ]; then
     if [ "$(docker ps -aq -f status=exited -f name=passerelle)" ]; then
@@ -11,6 +13,5 @@ if [ ! "$(docker ps -q -f name=passerelle)" ]; then
     docker run -d \
         --name="passerelle" \
         -p 9000:9000 \
-        --mount type=bind,source=$(pwd)/src,target=/usr/src/passerelle/src,readonly \
         pupupulp/passerelle-js:1.0
 fi
